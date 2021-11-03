@@ -1,0 +1,22 @@
+{
+  "name": "cryptocli",
+  "version": "1.0.0",
+  "description": "Command Line Tool For calculating crptoprices",
+  "main": "index.js",
+  "bin": "./bin/cryptocli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cryptocli"
+  ],
+  "author": "Bishal Khatri",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "colors": "^1.4.0",
+    "commander": "^8.3.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^8.2.0"
+  }
+}
